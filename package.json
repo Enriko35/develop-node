@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/Enriko35/develop-node#readme",
   "dependencies": {
+    "cli-color": "^2.0.2",
     "fastify": "^4.1.0",
-    "figlet": "^1.5.2"
+    "figlet": "^1.5.2",
+    "supertest": "^6.2.3"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
   }
 }
